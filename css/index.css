@@ -1,0 +1,53 @@
+#title {
+  background: #ff7043;
+}
+
+.navbar_t {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.features-title {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.features-icon {
+  color: #ff7043;
+}
+
+.titleDiv {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#testimonials {
+  text-align: center;
+  background: #ff7043;
+}
+
+.testimonials-title {
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.testimonials-img {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.testimonials-em {
+  padding-left: 10px;
+  font-size: larger;
+  color: white;
+}
+
+#press {
+  text-align: center;
+  background: #ff7043;
+}
+
+.press-img {
+  width: 15%;
+}
