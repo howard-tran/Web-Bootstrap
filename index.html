@@ -97,8 +97,11 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-6 text-center">
-            <h1 style="font-weight: bolder; color: white; font-size: 3.5em">
+          <div
+            class="col-lg-6 col-md-6 col-6 text-center"
+            style="transform: translateY(100px)"
+          >
+            <h1 style="font-weight: bolder; color: white; font-size: 3em">
               Meet new and interesting dogs nearby
             </h1>
 
@@ -111,7 +114,13 @@
               Download
             </button>
           </div>
-          <div class="col-lg-6 col-md-6 col-6" style="transform: rotateZ(8deg)">
+          <div
+            class="col-lg-6 col-md-6 col-6"
+            style="
+              position: relative;
+              transform: rotateZ(8deg) translateY(100px);
+            "
+          >
             <img src="images/iphone6.png" class="w-75" alt="iphone-mockup" />
           </div>
         </div>
@@ -121,8 +130,12 @@
 
     <!-- Features -->
 
-    <section id="features">
-      <div class="container my-5 py-5">
+    <section
+      id="features"
+      class="py-5"
+      style="position: relative; z-index: 1; background: white"
+    >
+      <div class="container py-5">
         <div class="row">
           <div class="col-lg-4 col-md-12 col-12" style="text-align: center">
             <i class="fas fa-check-circle fa-3x features-icon"></i>
