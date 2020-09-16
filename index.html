@@ -12,11 +12,16 @@
 
     <!-- Bootstrap CSS -->
     <script src="./dist/bundle.js"></script>
-    <script
-      src="https://kit.fontawesome.com/a27500b252.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Font Awsome CDN -->
+    <script src="./src/fontawsome.js"></script>
+
+    <!-- Custom Style -->
     <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
 
     <title>TinDog</title>
   </head>
@@ -30,14 +35,14 @@
             class="navbar-brand"
             href=""
             style="
-              font-family: 'Montserrat Alternates', sans-serif;
+              font-family: 'Grandstander', cursive;
               font-style: italic;
               font-weight: bolder;
               font-size: 3rem;
               color: white;
             "
-            >TinDog</a
-          >
+            ><u>TinDog</u>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -95,37 +100,29 @@
 
       <!-- Title -->
 
-      <div class="container">
+      <div class="container pb-5">
         <div class="row">
-          <div
-            class="col-lg-6 col-md-6 col-6 text-center"
-            style="transform: translateY(100px)"
-          >
-            <h1 style="font-weight: bolder; color: white; font-size: 3em">
-              Meet new and interesting dogs nearby
-            </h1>
-
-            <button type="button" class="btn btn-lg btn-dark">
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+            <h1 class="title-header">Meet new and interesting dogs nearby</h1>
+            <button type="button" class="btn btn-lg btn-dark my-2">
               <i class="fa fa-telegram"></i>
               Contact
             </button>
-            <button type="button" class="btn btn-lg btn-light">
+            <button type="button" class="btn btn-lg btn-light my-2">
               <i class="fa fa-download"></i>
               Download
             </button>
           </div>
-          <div
-            class="col-lg-6 col-md-6 col-6"
-            style="
-              position: relative;
-              transform: rotateZ(8deg) translateY(100px);
-            "
-          >
-            <img src="images/iphone6.png" class="w-75" alt="iphone-mockup" />
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+            <img
+              src="images/iphone6.png"
+              class="title-img"
+              style="position: relative; display: inline"
+              alt="iphone-mockup"
+            />
           </div>
         </div>
       </div>
-      <br />
     </section>
 
     <!-- Features -->
@@ -308,16 +305,30 @@
 
     <!-- Call to Action -->
 
-    <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    <section id="cta" class="py-5 my-5 text-center">
+      <div class="py-5">
+        <h1 style="color: white; font-weight: bolder">
+          Find the True Love of Your Dog's Life Today
+        </h1>
+        <button type="button" class="btn btn-lg btn-dark">
+          <i class="fa fa-apple"></i>
+          Download
+        </button>
+        <button type="button" class="btn btn-lg btn-light">
+          <i class="fa fa-android"></i>
+          Download
+        </button>
+      </div>
     </section>
 
     <!-- Footer -->
 
-    <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
+    <footer id="footer" class="py-5 my-5 text-center">
+      <i class="fab fa-twitter mx-1"></i>
+      <i class="fab fa-facebook mx-1"></i>
+      <i class="fab fa-instagram mx-1"></i>
+      <i class="fab fa-linkedin mx-1"></i>
+      <p style="font-size: larger">© Copyright 2018 TinDog</p>
     </footer>
   </body>
 </html>

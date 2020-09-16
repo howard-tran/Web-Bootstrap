@@ -2,9 +2,37 @@
   background: #ff7043;
 }
 
+.title-img {
+  transform: rotateZ(15deg);
+  right: 10%;
+  width: 80%;
+}
+
+.title-header {
+  font-weight: bolder;
+  color: white;
+  font-size: 2.7em;
+}
+
+@media (max-width: 767px) {
+  .title-img {
+    transform: rotateZ(0deg);
+    right: 0%;
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-header {
+    font-weight: bolder;
+    color: white;
+    font-size: 4.5em;
+  }
+}
+
 .navbar_t {
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .features-title {
@@ -22,6 +50,8 @@
 }
 
 #testimonials {
+  position: relative;
+  z-index: 1;
   text-align: center;
   background: #ff7043;
 }
@@ -50,4 +80,11 @@
 
 .press-img {
   width: 15%;
+}
+
+#cta {
+  background: #ff7043;
+}
+
+#footer {
 }
