@@ -30,6 +30,15 @@
   }
 }
 
+.container-custom {
+}
+
+@media (max-width: 705px) {
+  .container-custom {
+    display: block;
+  }
+}
+
 .navbar_t {
   margin: 0 auto;
   margin-bottom: 3rem;
