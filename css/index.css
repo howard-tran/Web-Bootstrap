@@ -33,7 +33,7 @@
 .container-custom {
 }
 
-@media (max-width: 705px) {
+@media (max-width: 767px) {
   .container-custom {
     display: block;
   }
