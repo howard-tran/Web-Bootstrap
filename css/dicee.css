@@ -1,0 +1,95 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #1c2833;
+}
+
+#title {
+  text-align: center;
+}
+
+#title h1 {
+  font-size: 8.5rem;
+  font-weight: bolder;
+  color: #73c6b6;
+  line-height: 2;
+}
+
+@media (max-width: 992px) {
+  #title h1 {
+    font-size: 6.5rem;
+    font-weight: bolder;
+    color: #73c6b6;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  #title h1 {
+    font-size: 4.5rem;
+    font-weight: bolder;
+    color: #73c6b6;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  #title h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #73c6b6;
+    line-height: 2;
+  }
+}
+
+#gameplay {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 650px;
+}
+
+#gameplay h1 {
+  color: #73c6b6;
+  font-family: "Indie Flower", cursive;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#gameplay #player1-dice,
+#player2-dice {
+  padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  #gameplay {
+    max-width: 378.5px;
+  }
+
+  #gameplay #player1-dice,
+  #player2-dice {
+    padding-top: 1rem;
+    width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  #gameplay {
+    max-width: 254px;
+  }
+
+  #gameplay h1 {
+    color: #73c6b6;
+    font-size: 1.5rem;
+    font-family: "Indie Flower", cursive;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  #gameplay #player1-dice,
+  #player2-dice {
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 100px;
+  }
+}
