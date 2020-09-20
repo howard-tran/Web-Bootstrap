@@ -19,13 +19,21 @@ function gamePlay() {
   player2_img.setAttribute("src", `../images/dice${player2}.png`);
 }
 
-function main() {
-  if (document.cookie.indexOf("checkReload") == -1) {
-    document.cookie = "checkReload=1";
-    //
+function test() {
+  console.log("fuck you");
+}
+
+function removeGameplayCookies() {
+  if (sessionStorage.getItem("gameplay-reloaded")) {
+    return;
   } else {
-    gamePlay();
+    sessionStorage.setItem("gameplay-reloaded", true);
   }
 }
 
+function main() {
+  if (sessionStorage.getItem("gameplay-reloaded")) {
+    gamePlay();
+  }
+}
 main();

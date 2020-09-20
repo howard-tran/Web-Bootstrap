@@ -1,7 +1,3 @@
-//@ts-nocheck
-
-import "../dist/bundle.js";
-
 /**
  * @type {HTMLElement}
  */
