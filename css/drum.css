@@ -1,0 +1,178 @@
+/* --breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;   */
+
+body {
+  background: #1c2833;
+}
+
+#title {
+  text-align: center;
+}
+#title h1 {
+  line-height: 2;
+  color: white;
+  text-shadow: 3px 3px #ff0000;
+  font-size: 8.5rem;
+}
+
+@media (max-width: 768px) {
+  #title {
+    text-align: center;
+  }
+  #title h1 {
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #title {
+    text-align: center;
+  }
+  #title h1 {
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 3.5rem;
+  }
+}
+
+.set {
+  margin: 0 auto;
+  text-align: center;
+}
+.set button {
+  width: 120px;
+  height: 120px;
+  box-shadow: 5px 5px #ff0000;
+  color: red;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 2px 2px #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.set #w-drum {
+  background-image: url("../images/tom1.png");
+  background-size: 120px 120px;
+}
+.set #a-drum {
+  background-image: url("../images/tom2.png");
+  background-size: 120px 120px;
+}
+.set #s-drum {
+  background-image: url("../images/tom3.png");
+  background-size: 120px 120px;
+}
+.set #d-drum {
+  background-image: url("../images/tom4.png");
+  background-size: 120px 120px;
+}
+.set #j-drum {
+  background-image: url("../images/crash.png");
+  background-size: 120px 120px;
+}
+.set #k-drum {
+  background-image: url("../images/kick.png");
+  background-size: 120px 120px;
+}
+.set #l-drum {
+  background-image: url("../images/snare.png");
+  background-size: 120px 120px;
+}
+.set canvas {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .set canvas {
+    display: block;
+    height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .set button {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .set #w-drum {
+    background-image: url("../images/tom1.png");
+    background-size: 80px 80px;
+  }
+  .set #a-drum {
+    background-image: url("../images/tom2.png");
+    background-size: 80px 80px;
+  }
+  .set #s-drum {
+    background-image: url("../images/tom3.png");
+    background-size: 80px 80px;
+  }
+  .set #d-drum {
+    background-image: url("../images/tom4.png");
+    background-size: 80px 80px;
+  }
+  .set #j-drum {
+    background-image: url("../images/crash.png");
+    background-size: 80px 80px;
+  }
+  .set #k-drum {
+    background-image: url("../images/kick.png");
+    background-size: 80px 80px;
+  }
+  .set #l-drum {
+    background-image: url("../images/snare.png");
+    background-size: 80px 80px;
+  }
+  .set canvas {
+    display: block;
+    height: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .set button {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .set #w-drum {
+    background-image: url("../images/tom1.png");
+    background-size: 50px 50px;
+  }
+  .set #a-drum {
+    background-image: url("../images/tom2.png");
+    background-size: 50px 50px;
+  }
+  .set #s-drum {
+    background-image: url("../images/tom3.png");
+    background-size: 50px 50px;
+  }
+  .set #d-drum {
+    background-image: url("../images/tom4.png");
+    background-size: 50px 50px;
+  }
+  .set #j-drum {
+    background-image: url("../images/crash.png");
+    background-size: 50px 50px;
+  }
+  .set #k-drum {
+    background-image: url("../images/kick.png");
+    background-size: 50px 50px;
+  }
+  .set #l-drum {
+    background-image: url("../images/snare.png");
+    background-size: 50px 50px;
+  }
+  .set canvas {
+    display: block;
+    height: 15px;
+  }
+}

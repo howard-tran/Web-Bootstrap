@@ -2,11 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Bootstrap Website" />
+    <meta name="author" content="Mingkhoi" />
 
     <title>Drum Kit</title>
 
     <!-- Bootstrap -->
-    <script src="../dist/bundle.js"></script>
+    <script src="../dist/webpack/bootstrap_min.js"></script>
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="../css/drum.css" />
@@ -19,17 +25,30 @@
   </head>
 
   <body>
-    <h1 id="title">Drum 🥁 Kit</h1>
+    <section id="title">
+      <h1>Drum 🥁 Kit</h1>
+    </section>
+
     <div class="set">
-      <button class="w drum">w</button>
-      <button class="a drum">a</button>
-      <button class="s drum">s</button>
-      <button class="d drum">d</button>
-      <button class="j drum">j</button>
-      <button class="k drum">k</button>
-      <button class="l drum">l</button>
+      <button type="button" class="btn btn-light" id="w-drum">w</button>
+      <button type="button" class="btn btn-light" id="a-drum">a</button>
+      <button type="button" class="btn btn-light" id="s-drum">s</button>
+      <button type="button" class="btn btn-light" id="d-drum">d</button>
+      <canvas></canvas>
+      <button type="button" class="btn btn-light" id="j-drum">j</button>
+      <button type="button" class="btn btn-light" id="k-drum">k</button>
+      <button type="button" class="btn btn-light" id="l-drum">l</button>
     </div>
 
-    <footer>Made with ❤️ in London.</footer>
+    <script src="../dist/drum.js"></script>
   </body>
+
+  <footer style="text-align: center" class="py-5">
+    <p style="color: white">Author: LarryJason</p>
+    <p>
+      <a href="https://www.appbrewery.co/" style="color: rgb(119, 198, 243)"
+        >🎲 App Brewery 🎲</a
+      >
+    </p>
+  </footer>
 </html>

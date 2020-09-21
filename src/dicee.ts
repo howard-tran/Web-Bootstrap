@@ -27,9 +27,10 @@ function removeGameplayCookies() {
   if (sessionStorage.getItem("gameplay-reloaded")) {
     return;
   } else {
-    sessionStorage.setItem("gameplay-reloaded", true);
+    sessionStorage.setItem("gameplay-reloaded", "true");
   }
 }
+document.querySelector("body").onload = removeGameplayCookies;
 
 function main() {
   if (sessionStorage.getItem("gameplay-reloaded")) {
