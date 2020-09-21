@@ -3,6 +3,8 @@
 Many thanks to: https://www.appbrewery.co/
 
 # Test-URL
-localhost/
+https://localhost/
 
-localhost/html/dicee.html
+https://localhost/html/dicee.html
+
+https://localhost/html/drum.html
