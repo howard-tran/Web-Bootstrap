@@ -1,6 +1,5 @@
 function playAudio(fileName) {
-    var _audio = document.createElement("audio");
-    _audio.src = fileName;
+    var _audio = new Audio(fileName);
     _audio.play();
 }
 function initAudioClickBtn() {

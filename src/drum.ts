@@ -1,6 +1,5 @@
 function playAudio(fileName: string) {
-  let _audio = document.createElement("audio");
-  _audio.src = fileName;
+  let _audio = new Audio(fileName);
   _audio.play();
 }
 
