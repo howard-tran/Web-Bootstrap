@@ -1,0 +1,12 @@
+.color-btn {
+  border: none;
+  background: white;
+  background-image: url("../images/tom1.png");
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  text-shadow: 2px 2px red;
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+}

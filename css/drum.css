@@ -53,34 +53,28 @@ body {
   text-shadow: 2px 2px #ffffff;
   margin-left: 5px;
   margin-right: 5px;
+  background-size: 100% 100%;
 }
 .set #w-drum {
   background-image: url("../images/tom1.png");
-  background-size: 120px 120px;
 }
 .set #a-drum {
   background-image: url("../images/tom2.png");
-  background-size: 120px 120px;
 }
 .set #s-drum {
   background-image: url("../images/tom3.png");
-  background-size: 120px 120px;
 }
 .set #d-drum {
   background-image: url("../images/tom4.png");
-  background-size: 120px 120px;
 }
 .set #j-drum {
   background-image: url("../images/crash.png");
-  background-size: 120px 120px;
 }
 .set #k-drum {
   background-image: url("../images/kick.png");
-  background-size: 120px 120px;
 }
 .set #l-drum {
   background-image: url("../images/snare.png");
-  background-size: 120px 120px;
 }
 .set canvas {
   display: none;
@@ -101,34 +95,7 @@ body {
     margin-left: 5px;
     margin-right: 5px;
   }
-  .set #w-drum {
-    background-image: url("../images/tom1.png");
-    background-size: 80px 80px;
-  }
-  .set #a-drum {
-    background-image: url("../images/tom2.png");
-    background-size: 80px 80px;
-  }
-  .set #s-drum {
-    background-image: url("../images/tom3.png");
-    background-size: 80px 80px;
-  }
-  .set #d-drum {
-    background-image: url("../images/tom4.png");
-    background-size: 80px 80px;
-  }
-  .set #j-drum {
-    background-image: url("../images/crash.png");
-    background-size: 80px 80px;
-  }
-  .set #k-drum {
-    background-image: url("../images/kick.png");
-    background-size: 80px 80px;
-  }
-  .set #l-drum {
-    background-image: url("../images/snare.png");
-    background-size: 80px 80px;
-  }
+
   .set canvas {
     display: block;
     height: 15px;
@@ -143,34 +110,7 @@ body {
     margin-left: 5px;
     margin-right: 5px;
   }
-  .set #w-drum {
-    background-image: url("../images/tom1.png");
-    background-size: 50px 50px;
-  }
-  .set #a-drum {
-    background-image: url("../images/tom2.png");
-    background-size: 50px 50px;
-  }
-  .set #s-drum {
-    background-image: url("../images/tom3.png");
-    background-size: 50px 50px;
-  }
-  .set #d-drum {
-    background-image: url("../images/tom4.png");
-    background-size: 50px 50px;
-  }
-  .set #j-drum {
-    background-image: url("../images/crash.png");
-    background-size: 50px 50px;
-  }
-  .set #k-drum {
-    background-image: url("../images/kick.png");
-    background-size: 50px 50px;
-  }
-  .set #l-drum {
-    background-image: url("../images/snare.png");
-    background-size: 50px 50px;
-  }
+
   .set canvas {
     display: block;
     height: 15px;

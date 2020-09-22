@@ -3,31 +3,30 @@ function playAudio(fileName) {
     _audio.play();
 }
 function initAudioClickBtn() {
-    $("#w-drum").on("click", function () {
+    $("#w-drum")[0].onclick = function () {
         playAudio("../sounds/tom-1.mp3");
-    });
-    $("#a-drum").on("click", function () {
+    };
+    $("#a-drum")[0].onclick = function () {
         playAudio("../sounds/tom-2.mp3");
-    });
-    $("#s-drum").on("click", function () {
+    };
+    $("#s-drum")[0].onclick = function () {
         playAudio("../sounds/tom-3.mp3");
-    });
-    $("#d-drum").on("click", function () {
+    };
+    $("#d-drum")[0].onclick = function () {
         playAudio("../sounds/tom-4.mp3");
-    });
-    $("#j-drum").on("click", function () {
+    };
+    $("#j-drum")[0].onclick = function () {
         playAudio("../sounds/crash.mp3");
-    });
-    $("#k-drum").on("click", function () {
+    };
+    $("#k-drum")[0].onclick = function () {
         playAudio("../sounds/kick-bass.mp3");
-    });
-    $("#l-drum").on("click", function () {
+    };
+    $("#l-drum")[0].onclick = function () {
         playAudio("../sounds/snare.mp3");
-    });
+    };
 }
 function initAudioTypingBtn() {
-    document.addEventListener("keydown", function (e) {
-        var btnParent = document.querySelector(".set");
+    $(document)[0].onkeydown = function (e) {
         switch (e.key) {
             case "w":
             case "W": {
@@ -65,7 +64,7 @@ function initAudioTypingBtn() {
                 break;
             }
         }
-    });
+    };
 }
 (function main() {
     initAudioClickBtn();
