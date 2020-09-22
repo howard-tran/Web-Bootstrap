@@ -16,10 +16,7 @@ function gamePlay() {
     player1_img.setAttribute("src", "../images/dice" + player1 + ".png");
     player2_img.setAttribute("src", "../images/dice" + player2 + ".png");
 }
-function test() {
-    console.log("fuck you");
-}
-function removeGameplayCookies() {
+function resetGameplayCookies() {
     if (sessionStorage.getItem("gameplay-reloaded")) {
         return;
     }
@@ -27,10 +24,9 @@ function removeGameplayCookies() {
         sessionStorage.setItem("gameplay-reloaded", "true");
     }
 }
-document.querySelector("body").onload = removeGameplayCookies;
-function main() {
+(function main() {
     if (sessionStorage.getItem("gameplay-reloaded")) {
         gamePlay();
     }
-}
-main();
+    resetGameplayCookies();
+})();
