@@ -4,6 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "dependencies": {
+    "@types/jquery": "^3.5.1",
     "autoprefixer": "^9.8.6",
     "bootstrap": "^4.5.2",
     "css-loader": "^4.3.0",
